@@ -1,13 +1,16 @@
 # linFFT
-Algorithm for automatized detection and analysis of lineament structures from images using Fast Fourier Transform (FFT)
 
-The MATLAB version of this function (linFFT) is part of the electronic supplementary files for
+linFFT is an algorithm for automatized detection and analysis of lineament structures from images using Fast Fourier Transform (FFT).
 
-Ruzicka, B.R., Schroeter, M., Pack, A., and Boehnhardt, H.: Detecting and analysing geomorphological structures in images of comet 67P/Churyumov-Gerasimenko
+The algorithm is currently only available as a MATLAB function, but tentative plans exist to port it to Python. 
 
-published in the Monthly Notices of the Royal Astronomical Society, Volume 503, Issue 3, Pages 3449-3459, in May 2021 (https://doi.org/10.1093/mnras/stab618)
+linFFT is part of the electronic supplementary files for 
 
-The entire method, particularly a step-by-step guide for using the function to analyse a larger image, is explained in detail in the article. The function is made available under a Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license.
+**Ruzicka, B.R., Schroeter, M., Pack, A., and Boehnhardt, H.: Detecting and analysing geomorphological structures in images of comet 67P/Churyumov-Gerasimenko**
+
+published in the Monthly Notices of the Royal Astronomical Society, Volume 503, Issue 3, Pages 3449-3459, in May 2021 (https://doi.org/10.1093/mnras/stab618). The article, which is also available as a free preprint on the arXiv, details the entire method. It includes a step-by-step guide for using the function to analyse a larger image.
+
+**The function is made available under a Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license.**
 
 Technical requirements:
 - linFFT was designed to run on MATLAB R2019b and requires the Image Processing Toolbox and the Signal Processing Toolbox.
