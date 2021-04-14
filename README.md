@@ -24,23 +24,15 @@ The function has several input parameters ("settings") which are explained in th
 
 The function is able to generate several different figures to visualise the workflow and/or the results. The input parameter 'dispfig' is used to decide which (if any) figure is displayed. <br>
 &nbsp;&nbsp;&nbsp;&nbsp; dispfig = -1	displays a map of backtransformations along the detected lineaments (cf. Figure 8B) <br>
-&nbsp;&nbsp;&nbsp;&nbsp; dispfig >= 1	displays steps of the workflow (Figure 1) and results (Figures 4 and 5)<br>
+&nbsp;&nbsp;&nbsp;&nbsp; dispfig >= 1	displays an overview of the steps of the workflow (Figure 1) and results (see example below)<br>
 &nbsp;&nbsp;&nbsp;&nbsp; dispfig =  0	no figures are generated
 
+<br>
+An example view for dispfig >= 1:<br>
 
+![example of dispfig >= 1](https://raw.githubusercontent.com/BirkoRuzicka/linFFT/main/frame_Gh.png)
 
 Further notes:
 - linFFT is compatible with any image file type that can be read into MATLAB using imread.
 - To use linFFT on a single image without dividing it into frames, set 'framesize' == image width. In this case, the input image must be square and image width must end in '01' (e.g. 101, 301, 1201).
-
-Example:
-The image "The Wave" used for Figure A1 in the publication is available under creative commons license from
-https://commons.wikimedia.org/wiki/File:TheWave_1600pixels.jpg
-To reproduce the two panels shown in Figure A1, save the image ("Original file") in the same directory/folder as the linFFT.m script, then open the directory in MATLAB and run these commands:
-
-```
->> image = imread('TheWave_1600pixels.jpg');
->> linFFT(image);
-```
-
 
