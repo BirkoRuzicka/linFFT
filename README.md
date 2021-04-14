@@ -22,10 +22,12 @@ To use linFFT for detecting and analysing linear features in an image, run these
 
 The function has several input parameters ("settings") which are explained in the function header. The function was designed with defaults for all these settings, but the user will likely need to adjust at least the parameters 'framesize' and 'threshold' according to the input image. Suitable parameters need to be found by trial and error.
 
-The function is able to generate several different figures to visualise the workflow and/or the results. The input parameter 'dispfig' is used to decide which (if any) figure is displayed. 
-	dispfig = -1	displays a map of backtransformations along the detected lineaments (cf. Figure 8B)
-	dispfig >= 1	displays steps of the workflow (Figure 1) and results (Figures 4 and 5)
-	dispfig =  0	no figures are generated
+The function is able to generate several different figures to visualise the workflow and/or the results. The input parameter 'dispfig' is used to decide which (if any) figure is displayed. <br>
+&nbsp;&nbsp;&nbsp;&nbsp; dispfig = -1	displays a map of backtransformations along the detected lineaments (cf. Figure 8B) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; dispfig >= 1	displays steps of the workflow (Figure 1) and results (Figures 4 and 5)<br>
+&nbsp;&nbsp;&nbsp;&nbsp; dispfig =  0	no figures are generated
+
+
 
 Further notes:
 - linFFT is compatible with any image file type that can be read into MATLAB using imread.
