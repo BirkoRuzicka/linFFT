@@ -10,7 +10,7 @@ linFFT is part of the electronic supplementary files for
 
 published in the Monthly Notices of the Royal Astronomical Society, Volume 503, Issue 3, Pages 3449-3459, in May 2021 (https://doi.org/10.1093/mnras/stab618). The article, which is also available as a free preprint on the arXiv, details the entire method. It includes a step-by-step guide for using the function to analyse a larger image.
 
-**The function is made available under a Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license.**
+**The function is made available under a Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license. In short, this means that you are free to share (copy and redistribute) and adapt (transform and build upon) the code, as long as you give appropriate credit, link to the license, indicate if changes were made. The license prohibits that you use the code for commercial purposes.**
 
 Technical requirements:
 - linFFT was designed to run on MATLAB R2019b and requires the Image Processing Toolbox and the Signal Processing Toolbox.
